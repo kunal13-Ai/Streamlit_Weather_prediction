@@ -3,10 +3,11 @@ import pandas as pd
 import numpy as np
 import joblib
 
+st.set_page_config(page_title="Weather Prediction", page_icon="🌤️", layout="centered")
 
 st.title("Weather Prediction App")
 
-st.set_page_config(page_title="Weather Prediction", page_icon="🌤️", layout="centered")
+st.snow()
 
 st.caption("This app predicts the Weather Forecasting")
 
